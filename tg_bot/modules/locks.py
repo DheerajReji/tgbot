@@ -207,7 +207,7 @@ def del_lockables(bot: Bot, update: Update):
                             return
 
                         chat.kick_member(new_mem.id)
-                        message.reply_text(" ")
+                        message.reply_text("A")
             else:
                 try:
                     message.delete()
