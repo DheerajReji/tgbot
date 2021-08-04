@@ -19,7 +19,7 @@ from tg_bot.modules.helper_funcs.misc import paginate_modules
 
 PM_START_TEXT = """
 
-Sorry, I Can't Help You! Because [NEGAN](tg://user?id={}) Won't Allow To Do That."""
+Sorry, I Can't Help You! Because [NEGAN](https://t.me/NEGANX) Won't Allow To Do That."""
 
 IMPORTED = {}
 MIGRATEABLE = []
@@ -117,7 +117,7 @@ def start(bot: Bot, update: Update, args: List[str]):
 
                 parse_mode=ParseMode.MARKDOWN, reply_markup=InlineKeyboardMarkup(
                      [[InlineKeyboardButton(text="🔆 JOIN OUR GROUP 🔆", url="https://t.me/joinchat/NfFdC-5j5YxhMTc1")],
-                      [InlineKeyboardButton(text="⭕ MY DEVELOPER ⭕", url="https://t.me/the_johnniewalker") ]]))
+                      [InlineKeyboardButton(text="⭕ MY DEVELOPER ⭕", url="https://t.me/NEGANX") ]]))
 
     else:
         update.effective_message.reply_text("ചത്തിട്ടില്ലാ...")
